@@ -1,7 +1,15 @@
-<section fxLayout="row wrap">
+<section fxLayout="row wrap" fxLayoutAlign="start center" class="w-100 text-white">
     <!-- <div *ngFor="let dot of dots" [ngStyle]="{'position': 'absolute', 'left': dot.left+'px','top' : dot.top+'px'}">
         <app-dot></app-dot>
     </div>
      -->
-     <app-canvas fxLayout="row" fxLayoutAlign="center" class="w-100"></app-canvas>
+     <div fxLayout="column" fxLayoutAlign="space-around end" class="w-50">
+         <p id="hi">Hi</p>
+         <p id="there">There</p>
+     </div>
+     <app-canvas fxLayout="row" fxLayoutAlign="center" class="w-50" ></app-canvas>
+     <!-- <div class="m-3 p-3">
+        <h1>Hi, I'm <span class="text-red">Jatin</span></h1>
+     <div>Coder <span class="text-red">.</span> Designer <span class="text-red">.</span> Developer</div>
+     </div> -->
 </section>
